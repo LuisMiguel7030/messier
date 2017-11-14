@@ -1,0 +1,15 @@
+.parallax {
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 405px){
+  .auto-letra{
+    font-size: 3.0em;
+
+  }
+}
