@@ -17,17 +17,6 @@ const Navbar = () => (
         <li className="nav-item active">
           <Link className="nav-link" to="/blog">Blog</Link>
         </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a className="dropdown-item">Action</a>
-            <a className="dropdown-item">Another action</a>
-            <div className="dropdown-divider"></div>
-            <a className="dropdown-item">Something else here</a>
-          </div>
-        </li>
         <li className="nav-item">
           <a className="nav-link disabled">Disabled</a>
         </li>
