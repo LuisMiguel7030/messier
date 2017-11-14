@@ -18,7 +18,7 @@ const Navbar = () => (
           <Link className="nav-link" to="/blog">Blog</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled">Disabled</a>
+          <a className="nav-link disabled">Desactivado</a>
         </li>
       </ul>
       <form className="form-inline my-2 my-lg-0">
