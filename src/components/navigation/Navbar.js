@@ -17,6 +17,12 @@ const Navbar = () => (
         <li className="nav-item active">
           <Link className="nav-link" to="/blog">Blog</Link>
         </li>
+<<<<<<< HEAD
+=======
+        <li className="nav-item">
+          <a className="nav-link disabled">Desactivado</a>
+        </li>
+>>>>>>> 6632f46d13aac7e802543d39c4741d42850ee09b
       </ul>
       <form className="form-inline my-2 my-lg-0">
         <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
