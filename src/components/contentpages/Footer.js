@@ -11,11 +11,9 @@ const Footer = () => (
               <div className="col-md-6">
                   <h5 className="title font-bold">Contact us</h5>
                   <ul>
-                    <hr/>
                     <li><h6 className="font-bold">Celular</h6></li>
                     <li><h6>3134970500</h6></li>
                     <li><h6>311879566</h6></li>
-                    <hr/>
                     <li><h6 className="font-bold">Email</h6></li>
                     <li><h6>messiersolutions@gmail.com</h6></li>
                   </ul>
