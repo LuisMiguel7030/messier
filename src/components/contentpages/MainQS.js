@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const MainQS = () => (
-  <main role="main" className="container mb-5 col-md-6" >
+  <main role="main" className="container mb-5 col-md-8" >
     <div className="starter-template ">
       <h1 className="text-center">Quiénes Somos</h1>
       <p className="text-center">
