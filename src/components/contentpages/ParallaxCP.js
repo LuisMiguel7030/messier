@@ -22,8 +22,8 @@ const ParallaxCP = () => (
               <div className="intro-info-content text-center">
                 <h1 className="display-1 mb-2 wow fadeInDown font-bold white-text auto-letra" data-wow-delay="0.3s">Messier Solutions</h1>
                 <h5 className="font-up mb-3 mt-1 font-bold wow fadeIn white-text" data-wow-delay="0.4s">Web developer & Movil developer</h5>
-                <a className="btn btn-light-blue btn-lg wow fadeIn" data-wow-delay="0.4s">portfolio</a>
-                <a className="btn btn-indigo btn-lg wow fadeIn" data-wow-delay="0.4s">About me</a>
+                <button className="btn btn-blue-grey btn-lg wow fadeIn" data-wow-delay="0.4s">portfolio</button>
+                <button className="btn btn-mdb btn-lg wow fadeIn" data-wow-delay="0.4s">About me</button>
               </div>
             </div>
           </div>

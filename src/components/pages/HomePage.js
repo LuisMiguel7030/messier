@@ -1,7 +1,7 @@
 import React from 'react';
 import ParallaxCP from '../contentpages/ParallaxCP';
 import CardMVP from '../contentpages/CardMVP';
-
+import MainQS from '../contentpages/MainQS';
 
 const HomePage = () => (
 
@@ -11,7 +11,9 @@ const HomePage = () => (
     </div>
 
     <div className="container marketing">
-        <CardMVP />
+      <MainQS/>
+      <hr/>
+      <CardMVP />
     </div>
   </div>
 
