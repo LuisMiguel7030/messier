@@ -9,7 +9,7 @@ const Footer = () => (
       <div className="container-fluid">
           <div className="row">
 
-              <div className="col-md-6 pl-5">
+              <div className="col-md-6 px-5">
                   <h5 className="title font-bold">Contact us</h5>
                   <ul>
                     <li><h6 className="font-bold">Celular</h6></li>
@@ -20,7 +20,7 @@ const Footer = () => (
                   </ul>
               </div>
 
-              <div className="col-md-6 pl-5">
+              <div className="col-md-6 px-5">
                   <h5 className="title font-bold">co-founders</h5>
                   <ul>
                       <li><h6>Klaus Thelen</h6></li>
