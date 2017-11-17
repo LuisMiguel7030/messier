@@ -33,10 +33,10 @@ class Navbar extends React.Component {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className={(this.state.activeTabClassName === "home") ? "nav-item active":"nav-item"}>
+            <li className={(this.state.activeTabClassName === "home") ? "nav-item active animated pulse white-text":"nav-item"}>
               <Link className="nav-link" to="/" onClick={this.changeStateHome}>Home</Link>
             </li>
-            <li className={(this.state.activeTabClassName === "blog") ? "nav-item active":"nav-item"}>
+            <li className={(this.state.activeTabClassName === "blog") ? "nav-item active animated pulse":"nav-item"}>
               <Link className="nav-link" onClick={this.changeStateBlog} to="/blog">Blog</Link>
             </li>
           </ul>
