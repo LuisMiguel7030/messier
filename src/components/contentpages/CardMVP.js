@@ -10,7 +10,7 @@ const CardMVP = () => (
         <div className="card-body">
           <h4 className="card-title">Misión</h4>
           <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p className="card-text">ACA VA LA</p>
+          <p className="card-text">ACA VA LA Misión</p>
           <a className="card-link">Card link</a>
           <a className="card-link">Another link</a>
         </div>
