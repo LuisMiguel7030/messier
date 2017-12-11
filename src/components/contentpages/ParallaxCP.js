@@ -1,5 +1,4 @@
 import React from 'react';
-import parallax from '../global/css/parallax.css'
 
 var divStyle = {
   backgroundImage: 'url(' + require('../images/pres2opt.jpg') + ')',

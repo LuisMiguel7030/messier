@@ -1,5 +1,4 @@
 import React from 'react';
-import buttoncolors from '../global/css/SocialButtons.css'
 
 
 const Footer = () => (
@@ -45,7 +44,7 @@ const Footer = () => (
 
       <div className="footer-copyright">
           <div className="container-fluid">
-              © 2017 Copyright: <a href="#"> messiersolutions.com </a>
+              © 2017 Copyright: <a href=""> messiersolutions.com </a>
 
           </div>
       </div>
