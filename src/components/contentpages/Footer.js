@@ -14,6 +14,7 @@ const Footer = () => (
                     <li><h6 className="font-bold">Celular</h6></li>
                     <li><h6>3134970500</h6></li>
                     <li><h6>3118795669</h6></li>
+                    <li><h6>3002702516</h6></li>
                     <li><h6 className="font-bold">Email</h6></li>
                     <li><h6>messiersolutions@gmail.com</h6></li>
                   </ul>
