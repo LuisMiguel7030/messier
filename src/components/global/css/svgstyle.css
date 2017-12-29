@@ -1,0 +1,22 @@
+.st0{
+	fill:#165367;
+}
+.st1{
+	fill:#2282AD;
+}
+.st2{
+	fill:#010002;
+}
+
+.logomovil{ display : none; }
+
+@media screen and (max-width: 500px) {
+
+	 .svgmovil{ 
+    	display: none;
+     }
+    .logomovil{ 
+    	display: inline-block;
+     }
+    
+}
