@@ -1,10 +1,12 @@
 import React from 'react';
-import buttoncolors from '../global/css/SocialButtons.css'
+import { Link } from 'react-router-dom';
+import '../global/css/SocialButtons.css'
+
 
 
 const Footer = () => (
 
-  <footer className="page-footer center-on-small-only stylish-color-dark">
+  <footer className="page-footer center-on-small-only" style={{backgroundColor: '#165367'}}>
 
       <div className="container-fluid">
           <div className="row">
@@ -45,7 +47,7 @@ const Footer = () => (
 
       <div className="footer-copyright">
           <div className="container-fluid">
-              © 2017 Copyright: <a href="#"> messiersolutions.com </a>
+              © 2017 Copyright: <Link to="/"> messiersolutions.com </Link>
 
           </div>
       </div>

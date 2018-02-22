@@ -1,53 +1,51 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../images/logomessier.png';
 
 class Navbar extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      activeTabClassName: "home"
-    };
-    this.changeStateHome = this.changeStateHome.bind(this);
-    this.changeStateBlog = this.changeStateBlog.bind(this);
-  }
-
-  changeStateHome(){
-    this.setState({
-      activeTabClassName: "home"
-    });
-  }
-
-  changeStateBlog(){
-    this.setState({
-      activeTabClassName: "blog"
-    });
-  }
 
   render() {
+    
     return (
-      <nav className="navbar fixed-top navbar-expand-lg navbar-light blue-grey lighten-5">
-        <Link to="/"><div className="navbar-brand" onClick={this.changeStateHome}>Messier Solutions</div></Link>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <nav className="navbar fixed-top rgba-white-strong navbar-dark navbar-expand-lg" >
+        <a herf='#home'>
+          <img src={logo} height="55" width="200" alt=""/>
+        </a>
+        <button 
+         className="navbar-toggler" 
+         type="button" 
+         data-toggle="collapse" 
+         data-target="#navbarSupportedContent" 
+         aria-controls="navbarSupportedContent" 
+         aria-expanded="false" 
+         aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className={(this.state.activeTabClassName === "home") ? "nav-item active animated pulse white-text":"nav-item"}>
-              <Link className="nav-link" to="/" onClick={this.changeStateHome}>Home</Link>
+            <li className="nav-item">
+              <a href='#home'
+               className="nav-link" 
+               style={{color: '#2282AD'}}>
+                Home
+              </a>
             </li>
-            <li className={(this.state.activeTabClassName === "blog") ? "nav-item active animated pulse":"nav-item"}>
-              <Link className="nav-link" onClick={this.changeStateBlog} to="/blog">Blog</Link>
+            <li className="nav-item">
+              <Link 
+               className="nav-link" 
+               onClick={this.changeStateBlog} 
+               to="/aboutme"
+               style={{color: '#2282AD'}}>
+                contact us 
+              </Link>
             </li>
           </ul>
-          <form className="form-inline my-2 my-lg-0">
-            <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-            <button className="btn btn-mdb" type="submit">Search</button>
-          </form>
         </div>
       </nav>
     );
   }
 }
+
 
 export default Navbar;

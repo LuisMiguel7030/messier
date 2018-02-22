@@ -3,7 +3,7 @@ import React from 'react';
 
 const CardMVP = () => (
 
-  <div className="row mt-5">
+  <div className="row mt-5" style={{padding: '5em 0em'}}>
 
     <div className="col-lg-4 mb-3">
       <div className="card" >
@@ -40,12 +40,7 @@ const CardMVP = () => (
         </div>
       </div>
     </div>
-
   </div>
-
-
-
-
 );
 
 export default CardMVP;
