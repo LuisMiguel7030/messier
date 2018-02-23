@@ -27,7 +27,6 @@ const Footer = () => (
                   <ul>
                       <li><h6>Klaus Thelen</h6></li>
                       <li><h6>Luis Miguel Barragan</h6></li>
-                      <li><h6>Victor Cortes</h6></li>
                   </ul>
               </div>
 

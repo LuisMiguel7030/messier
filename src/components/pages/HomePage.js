@@ -10,6 +10,8 @@ import Sol4 from '../contentpages/Sol4';
 
 const cardstyle = {
   backgroundColor: '#84BD64',
+  paddingTop: '4em',
+  paddingBottom: '6em'
 }
 
 const HomePage = () => (
@@ -38,8 +40,11 @@ const HomePage = () => (
     <ScrollableAnchor id={'portfolio'}>
       <div className="container marketing" style={{paddingTop: '1em'}}>
         <Sol1/>
+        <hr/>
         <Sol2/>
+        <hr/>
         <Sol3/>
+        <hr/>
         <Sol4/>
       </div>
     </ScrollableAnchor>
